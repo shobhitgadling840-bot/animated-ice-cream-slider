@@ -1,14 +1,12 @@
-
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import Main1 from './src/screens/Main1'
 
-const App = () => {
+export default function Cirousel() {
   return (
-     <Main1 />
+    <View>
+      <Text>Cirousel</Text>
+    </View>
   )
 }
-
-export default App
 
 const styles = StyleSheet.create({})
